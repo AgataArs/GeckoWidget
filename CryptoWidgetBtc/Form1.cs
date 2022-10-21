@@ -12,49 +12,31 @@ namespace CryptoWidgetBtc
 {
     public partial class Form1 : Form
     {
-        private string txt;
-
-        private string txtEth;
-
-        private string txtMatic;
+        
         public Form1()
         {
             InitializeComponent();
         }
 
-        public async Task SetText(string tt)
+        public async Task SetText(string textBtc)
         {
-            txt = tt;
-            textBox1.Text = txt;
+
+            textBox1.Text = textBtc;
 
         }
 
-        public async Task SetTextEth(string ttEth)
+        public async Task SetTextEth(string textEth)
         {
-            txtEth = ttEth;
-            textBox2.Text = txtEth;
+
+            textBox2.Text = textEth;
         }
 
-        public async Task SetTextMatic(string ttMatic)
+        public async Task SetTextMatic(string textMatic)
         {
-            txtMatic = ttMatic;
-            textBox3.Text = txtMatic;
-        }
 
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
+            textBox3.Text = textMatic;
 
         }
 
-        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -64,7 +64,6 @@ namespace CryptoWidgetBtc
             // 
             resources.ApplyResources(this.textBox1, "textBox1");
             this.textBox1.Name = "textBox1";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -78,7 +77,6 @@ namespace CryptoWidgetBtc
             this.linkLabel2.LinkColor = System.Drawing.Color.Silver;
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.TabStop = true;
-            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // pictureBox2
             // 
@@ -139,7 +137,6 @@ namespace CryptoWidgetBtc
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.linkLabel1);
             this.Name = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

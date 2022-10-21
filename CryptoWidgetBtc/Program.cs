@@ -60,9 +60,6 @@ namespace CryptoWidgetBtc
     {
         static Form1 form;
         static Gecko gecko;
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
 
         static void Main()
         {
